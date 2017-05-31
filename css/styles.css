@@ -1,0 +1,332 @@
+/* 
+    Document   : main
+    Created on : Oct 6, 2012, 10:53:25 PM
+    Author     : hodges_richard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+a.leftnav {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.leftnav:hover {
+    text-decoration: underline;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+div.left {
+    float: left;
+}
+
+div.right {
+    float: right;
+}
+
+div #download_button {
+    height: 40px;
+    margin-bottom: 12px;
+    float: right;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 700;
+    border: solid 1px somecolor;
+    color: #eee;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    background: -moz-linear-gradient(top, #5E5E5E 0%, #474747 51%, #0a0e0a 51%, #0a0809 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5E5E5E), color-stop(51%,#474747), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809));
+}
+button:hover {
+  color: white;
+}
+
+li.desc {
+    font-size: 10px;
+    line-height: 11px;
+    padding-top: 6px;
+}
+
+p.desc {
+    padding-top: 12px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.spacer1 {
+    width: 2px;
+}
+
+.spacer2 {
+    width: 18px;
+}
+
+table, table.logos {
+    border-collapse: collapse;
+    width: 495px;
+}
+
+table.logos {
+    height: 314px;
+}
+
+td {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 700; 
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+td.display {
+    border: solid 3px #ccc;
+    background-color: #fff;
+    text-decoration: none;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+th.title, th.subtitle {
+    /*border: 3px solid #ccc;*/
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+th.subtitle {
+    background-color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+td.grid {
+    border: solid 3px #ccc;
+    background-color: #fff;
+    text-decoration: none;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;    
+}
+
+td.grid:visited {
+    color: #ddd;
+}
+
+td.grid:hover, td.grid:active {
+    color: #99ccff;
+    background-color: #0066cc;
+}
+
+td.buttonselected {
+    border: solid 3px #ccc;
+    background-color: #0066cc;
+    text-decoration: none;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;    
+}
+
+td.button {
+    border: solid 3px #ccc;
+    background-color: #fff;
+    text-decoration: none;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;    
+}
+
+td.button:visited {
+    color: #ddd;
+}
+
+td.button:hover, td.grid:active {
+    color: #99ccff;
+    background-color: #0066cc;
+}
+
+th.button {
+    border: solid 3px #ccc;
+    background-color: #fff;
+    text-decoration: none;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    font-family: Arial, sans-serif;
+}
+
+ul.desc {
+    margin-left: -14px;
+}
+
+.button-link {
+    padding: 4px 4px;
+    margin-bottom: 4px;
+    background: #fff;
+    color: #FFF;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.button-link:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
+
+.hintanchor{ 
+    font-weight: bold;
+    color: navy;
+    margin: 3px 8px;
+}
+
+#breadcrumb {
+    text-align: left;
+    padding-left: 25px;
+}
+
+#container1 {
+    width: 960px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#content1 {
+    text-align: center;
+    background-color: #fff;
+}
+
+#description {
+    text-align: left;
+    width: 155px;
+    float: right;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #f1f2f3;
+}
+
+#display_desc {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px; 
+    font-weight: 700; 
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#footer1 {
+    width: 960px;
+    background-color: #fff;
+}
+
+#hitarea a {
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+}
+
+#hitarea a:link {
+    color: #000;
+}
+
+#hitarea a:visited {
+    color: #ddd;
+}
+
+#hitarea a:hover, a:active {
+    color: #99ccff;
+    background-color: #0066cc;
+}
+
+#hintbox{ /*CSS for pop up hint box */
+    position:absolute;
+    top: 0;
+    background-color: lightyellow;
+    width: 150px; /*Default width of hint.*/ 
+    padding: 3px;
+    border:1px solid black;
+    font:normal 11px Verdana;
+    line-height:18px;
+    z-index:100;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    visibility: hidden;
+}
+
+#leftnav {
+    width: 240px;
+    float: left;
+    background-color: #4F7AAF;
+}
+
+#logos {
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+#main1 {
+    width: 500px;
+    float: left;
+    background-color: #fff;
+}
